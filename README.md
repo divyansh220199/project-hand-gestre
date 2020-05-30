@@ -1,4 +1,4 @@
-##Hand Gesture Recognition
+#Hand Gesture Recognition
 
 Goal is to recognize hand gestures. I've trained the model on my own dataset using Perceptron. I've included my the dataset in the repository itself. In it's present state the model is trained to recognize just five gestures but can easily be trained for many hand gestures. I'll also upload the code that I'm using for capturing the hand an processing it for training the model.
 
