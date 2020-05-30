@@ -6,14 +6,14 @@ Model gives a high testing accuracy of about 95% using just two convolution and 
 Images in the dataset are of dimension 275 by 275. But for performance reasons they have been resized to 50 by 50. You can use them as it is if you have a powerful setup otherwise program displays a Tensorflow error tensorflow/core/framework/allocator.cc:101] Allocation of X exceeds 10% of system memory.
 
 # What's in the Repository 
-* `capturing hand images.ipynb` - This program can capture new hand gestures and write them in the specified directory
+* `capturing hand images.ipynb` - This program can capture new hand gestures and write them in the specified directory.
 * `combining images.ipynb` - This program combines the images in a single array.
-* `recognizer.ipynb` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
+* `recognizer.ipynb` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures.
 * `demo.mp4` - This is the video that shows the working of the model in real time.
 * `sample images` - This folder contains the samle images used for training the model.
-* `loading dataset and training model.ipynb` - This program uses the given dataset to train the CNN model
-* `hand dataset` - This folder have the dataset used to train the CNN model
-* `loading dataset and training model.ipynb` - This program uses the given dataset to train the CNN model
+* `loading dataset and training model.ipynb` - This program uses the given dataset to train the CNN model.
+* `hand dataset.rar` - This rar file have the dataset used to train and test the CNN model.
+* `loading dataset and training model.ipynb` - This program uses the given dataset to train the CNN model.
 
 # Required External libraries
 * `cv2 (opencv)`
