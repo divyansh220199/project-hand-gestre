@@ -7,11 +7,13 @@ Images in the dataset are of dimension 275 by 275. But for performance reasons t
 
 # What's in the Repository 
 * `capturing hand images.ipynb` - This program can capture new hand gestures and write them in the specified directory
+* `combining images.ipynb` - This program combines the images in a single array.
 * `recognizer.ipynb` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
-* `demo.mp4` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
-* `combining images and getting a single file.ipynb` - This is the main program that uses pretrained model (in the repo) for recognizing                                                        hand gestures
-* `sample images` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
-* `loading dataset and training model.ipynb` - This program uses the given dataset to train the Perceptron model
+* `demo.mp4` - This is the video that shows the working of the model in real time.
+* `sample images` - This folder contains the samle images used for training the model.
+* `loading dataset and training model.ipynb` - This program uses the given dataset to train the CNN model
+* `hand dataset` - This folder have the dataset used to train the CNN model
+* `loading dataset and training model.ipynb` - This program uses the given dataset to train the CNN model
 
 # Required External libraries
 * `cv2 (opencv)`
