@@ -13,7 +13,7 @@ Images in the dataset are of dimension 275 by 275. But for performance reasons t
 
 # Required External libraries
 * `cv2 (opencv)`
-* `imutils`
+* `pickle`
 * `glob`
 * `sklearn (scikit-learn)`
 * `keras`
