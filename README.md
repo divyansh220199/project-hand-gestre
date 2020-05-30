@@ -6,18 +6,18 @@ Model gives a high testing accuracy of about 95% using just two convolution and 
 Images in the dataset are of dimension 275 by 275. But for performance reasons they have been resized to 50 by 50. You can use them as it is if you have a powerful setup otherwise program displays a Tensorflow error tensorflow/core/framework/allocator.cc:101] Allocation of X exceeds 10% of system memory.
 
 # What's in the Repository 
-captureHand.py - This program can capture new hand gestures and write them in the specified directory
-recognizer.py - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
-trainer.py - This program uses the given dataset to train the Perceptron model
-CNN Model - A directory that contains CNN model implementation for the same recognition purpose (with 5 gestures)
+* `captureHand.py` - This program can capture new hand gestures and write them in the specified directory
+* `recognizer.py` - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
+* `trainer.py` - This program uses the given dataset to train the Perceptron model
+* `CNN Model` - A directory that contains CNN model implementation for the same recognition purpose (with 5 gestures)
 
 # Required External libraries
-cv2 (opencv)
-imutils
-glob
-sklearn (scikit-learn)
-keras
-numpy
+* `cv2 (opencv)`
+* `imutils`
+* `glob`
+* `sklearn (scikit-learn)`
+* `keras`
+* `numpy`
 
 # Future
 I hope to implement more than five gestures in the future. There will be further improvements in the code itself too.
