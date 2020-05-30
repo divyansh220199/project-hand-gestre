@@ -5,7 +5,7 @@ Model gives a high testing accuracy of about 95% using just two convolution and 
 
 Images in the dataset are of dimension 275 by 275. But for performance reasons they have been resized to 50 by 50. You can use them as it is if you have a powerful setup otherwise program displays a Tensorflow error tensorflow/core/framework/allocator.cc:101] Allocation of X exceeds 10% of system memory.
 
-#What's in the Repository
+#What's in the Repository 
 captureHand.py - This program can capture new hand gestures and write them in the specified directory
 recognizer.py - This is the main program that uses pretrained model (in the repo) for recognizing hand gestures
 trainer.py - This program uses the given dataset to train the Perceptron model
